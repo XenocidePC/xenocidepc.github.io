@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: xenocidepc.github.io
+title: XenocidePC
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -61,31 +61,32 @@ author:
   name   : "Jack Li"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I'm a first year student at UNSW, studying computer engineering."
+  discord: "Xenocide#6723"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Discord: Xenocide#6723"
+    #   icon: "fab fa-fw fa-discord"
+    #   url: ""
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:xenocidepc@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/XenocidePC"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/id/XenocidePC"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:xenocidepc@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/XenocidePC"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://steamcommunity.com/id/XenocidePC"
 
 defaults:
   # _posts
@@ -113,3 +114,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Fixes GitHub Metadata warning
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]

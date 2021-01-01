@@ -20,5 +20,15 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+/* Custom Discord ID style */
+.discord-id {
+    color: #a9a9a9;
+    text-transform: none;
+}
+.discord-footer {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
