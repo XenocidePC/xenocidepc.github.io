@@ -111,10 +111,3 @@ tag_archive:
 # Fixes GitHub Metadata warning
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 github: [metadata]
-
-# Google Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-MYTS6SLDBE"
-    anonymize_ip: false
