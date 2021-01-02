@@ -30,24 +30,11 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
     font-weight: bold;
 }
 
-/* Default stylesheet imports */
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-/* Custom style overrides */
-.page__footer footer {
-    margin-top: 1em;
-    padding-bottom: 1em;
-}
-.page__hero--overlay {
-    margin-bottom: 0;
-}
-.page__hero--overlay .page__lead {
-    max-width: 1236px;
-}
+/* Separate header buttons */
 .page__hero--overlay .btn {
     margin-right: 0.5em;
 }
-.page__content {
-    margin-top: 1em;
-}
+
+/* Default stylesheet imports */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
