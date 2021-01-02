@@ -39,3 +39,6 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
     margin-top: 1em;
     padding-bottom: 1em;
 }
+.page__hero--overlay .page__lead {
+    max-width: 1236px;
+}
