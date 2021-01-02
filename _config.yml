@@ -17,6 +17,7 @@ title: XenocidePC
 title_separator: "|"
 locale: en-AU
 logo: "/assets/images/site-logo.jpg"
+name: Jack Li
 email: xenocidepc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The personal site of Jack Li (XenocidePC).
