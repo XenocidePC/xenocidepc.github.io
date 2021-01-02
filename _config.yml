@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: XenocidePC
+title: "XenocidePC"
 title_separator: "|"
 locale: en-AU
 logo: "/assets/images/site-logo.jpg"
-name: Jack Li
-email: xenocidepc@gmail.com
+name: "Jack Li"
+email: "xenocidepc@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   The personal site of Jack Li.
-github_username: XenocidePC
+github_username: "XenocidePC"
 minimal_mistakes_skin: dark
 search: true
 
@@ -111,3 +111,10 @@ tag_archive:
 # Fixes GitHub Metadata warning
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 github: [metadata]
+
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MYTS6SLDBE"
+    anonymize_ip: false
