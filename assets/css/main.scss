@@ -38,3 +38,8 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 /* Default stylesheet imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Remove unnecessary padding from recent on homepage */
+.page__content h2 {
+    padding-bottom: 0;
+}
