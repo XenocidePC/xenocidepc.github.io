@@ -97,6 +97,16 @@ defaults:
       toc: true
       toc_label: "Table of Contents"
       toc_sticky: true
+  # projects
+  - scope:
+      path: "projects"
+      type: posts
+    values:
+      layout: single
+      read_time: false
+      show_date: false
+      comments: false
+      toc: false
   # _pages
   - scope:
       path: "_pages"
