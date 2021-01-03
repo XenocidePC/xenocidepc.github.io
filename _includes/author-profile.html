@@ -34,7 +34,10 @@
       <!--Add custom Discord section-->
       {% if author.discord %}
         <li>
-          <i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord: <span class="discord-id">{{ author.discord }}</span></span>
+          <script>
+            new ClipboardJS('.copy');
+          </script>
+          <a data-clipboard-text="{{ author.discord }}" class="copy"><i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord</span></a>
         </li>
       {% endif %}
       

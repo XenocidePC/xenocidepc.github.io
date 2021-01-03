@@ -96,6 +96,11 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
     float: right;
 }
 
+/* Style clipboard.js copy links */
+.copy {
+    cursor: pointer;
+}
+
 /* Default stylesheet imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

@@ -59,8 +59,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jack Li"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Jack Li (XenocidePC)"
+  avatar : "/assets/images/site-logo.jpg"
   bio    : "I'm a first year student at UNSW, studying computer engineering."
   discord: "Xenocide#6723"
   links:
@@ -125,3 +125,7 @@ tag_archive:
 # Fixes GitHub Metadata warning
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 github: [metadata]
+
+# Include clipboard.js script in <head>
+head_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js

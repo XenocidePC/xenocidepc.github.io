@@ -19,7 +19,7 @@
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.url | relative_url }}" rel="permalink" {% if post.categories contains "projects" %}class="projects-link"{% endif %}>{{ title }}</a> <a href="{{ post.link }}"  {% if post.categories contains "projects" %}class="projects-link"{% endif %}><i class="fas fa-link" aria-hidden="true" title="Direct Link"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.url | relative_url }}" rel="permalink" {% if post.categories contains "projects" %}class="projects-link"{% endif %}>{{ title }}</a> <a href="{{ post.link }}"  {% if post.categories contains "projects" %}class="projects-link"{% endif %}><i class="fas fa-link" aria-hidden="true" title="Direct Link"></i><span class="sr-only">Direct Link</span></a>
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink" {% if post.categories contains "projects" %}class="projects-link"{% endif %}>{{ title }}</a>
       {% endif %}
