@@ -34,20 +34,26 @@ about:
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories['blog'] limit:3 %}
     {% unless post.hidden %}
-      {% include archive-single.html type=entries_layout%}
+      <div class="recent-border blog-shadow">
+        {% include archive-single.html type=entries_layout%}
+      </div>
     {% endunless %}
   {% endfor %}
 </div>
+<a href="/blog/" class="read-more">Read More <i class="fas fa-angle-double-right"></i></a>
 
 {% include feature_row id="projects"%}
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in site.categories['projects'] limit:3 %}
     {% unless post.hidden %}
-      {% include archive-single.html type=entries_layout%}
+      <div class="recent-border projects-shadow">
+          {% include archive-single.html type=entries_layout%}
+      </div>
     {% endunless %}
   {% endfor %}
 </div>
+<a href="/projects/" class="read-more projects-link">See More <i class="fas fa-angle-double-right"></i></a>
 
 {% include feature_row id="about"%}
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.

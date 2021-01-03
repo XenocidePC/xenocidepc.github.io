@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 /* Custom colours */
-$background-color: #252a34 !default;
+$background-color: #15181e;
 $text-color: #eaeaea !default;
 $primary-color: #00adb5 !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
@@ -19,6 +19,9 @@ $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+$projects-link-color: #8785c7;
+$projects-link-color-hover: mix(#fff, $projects-link-color, 25%);
+$projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 
 /* Custom Discord ID style */
 .discord-id {
@@ -33,6 +36,64 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 /* Separate header buttons */
 .page__hero--overlay .btn {
     margin-right: 0.5em;
+}
+
+/* Box around recent on homepage */
+.recent-border {
+    margin: 2em 0;
+    border: solid;
+    border-radius: 1em;  
+    transition: .2s;
+}
+.recent-border:hover {
+    transform: scale(1.02);
+}
+/* Makes whole div clickable */
+.recent-border .list__item {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.recent-border .archive__item {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0.1em 1.5em;
+}
+/* Set colours for boxes */
+.blog-shadow {
+    border-color: $link-color;
+    box-shadow: inset 0 0 5px 2px $link-color, 0 0 5px 2px $link-color;
+}
+.blog-shadow:hover {
+    border-color: $link-color-hover;
+    box-shadow: inset 0 0 5px 2px $link-color-hover, 0 0 5px 2px $link-color-hover;
+}
+.projects-shadow {
+    border-color: $projects-link-color;
+    box-shadow: inset 0 0 5px 2px $projects-link-color, 0 0 5px 2px $projects-link-color;
+}
+.projects-shadow:hover {
+    border-color: $projects-link-color-hover;
+    box-shadow: inset 0 0 5px 2px $projects-link-color-hover, 0 0 5px 2px $projects-link-color-hover;
+}
+
+/* Set colours for projects links */
+.projects-link {
+    color: $projects-link-color;
+}
+.projects-link:visited {
+    color: $projects-link-color-visited;
+}
+.projects-link:hover {
+    color: $projects-link-color-hover;
+}
+
+/* Style read more links */
+.read-more {
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
 }
 
 /* Default stylesheet imports */
