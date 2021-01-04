@@ -105,7 +105,7 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Remove unnecessary padding from recent on homepage */
-.page__content h2 {
-    padding-bottom: 0;
+/* Remove unnecessary margin from recent on homepage on mobile devices */
+.feature__item {
+    margin-bottom: 0;
 }
