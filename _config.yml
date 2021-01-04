@@ -22,6 +22,7 @@ email: "xenocidepc@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   The personal site of Jack Li.
 github_username: "XenocidePC"
+repository: "XenocidePC/xenocidepc.github.io"
 minimal_mistakes_skin: dark
 search: true
 search_full_content: true
@@ -130,3 +131,10 @@ github: [metadata]
 # Include clipboard.js script in <head>
 head_scripts:
   - https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js
+
+# Enable utterances comments
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark"
+    issue_term: "pathname"
