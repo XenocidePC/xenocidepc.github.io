@@ -109,3 +109,7 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 .feature__item {
     margin-bottom: 0;
 }
+/* Same as above but padding on all devices */
+h2[itemprop="headline"] {
+    padding-bottom: 0;
+}
