@@ -128,4 +128,4 @@ github: [metadata]
 
 # Include clipboard.js script in <head>
 head_scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js
+  - https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js
