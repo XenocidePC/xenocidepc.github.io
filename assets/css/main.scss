@@ -109,14 +109,3 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 .feature__item {
     margin-bottom: 0;
 }
-
-/* Set colour overrides for projects buttons */
-.projects-btn {
-    background-color: $projects-link-color;
-}
-.projects-btn:visited {
-    background-color: $projects-link-color;
-}
-.projects-btn:hover {
-    background-color: $projects-link-color-visited;
-}
