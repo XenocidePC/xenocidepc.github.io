@@ -40,7 +40,8 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 
 /* Box around recent on homepage */
 .recent-border {
-    margin: 2em 0;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
     border: solid;
     border-radius: 1em;  
     transition: .2s;
@@ -105,11 +106,15 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Remove unnecessary margin from recent on homepage on mobile devices */
+/* Remove unnecessary margin from recent on homepage */
 .feature__item {
     margin-bottom: 0;
 }
-/* Same as above but padding on all devices */
+.feature__wrapper {
+    margin-bottom: 1em;
+}
+
+/* Same as above but padding within posts */
 h2[itemprop="headline"] {
     padding-bottom: 0;
 }
