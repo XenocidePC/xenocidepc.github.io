@@ -113,8 +113,17 @@ $projects-link-color-visited: mix(#000, $projects-link-color, 25%);
 .feature__wrapper {
     margin-bottom: 1em;
 }
-
+/* Same as above but margin under header image */
+.page__hero--overlay {
+    margin-bottom: 1em;
+}
 /* Same as above but padding within posts */
 h2[itemprop="headline"] {
     padding-bottom: 0;
+}
+
+/* Modify margins and padding to allow more consistent scrolling */
+.page__content .archive__item-title {
+    margin-top: 0;
+    padding-top: 1em;
 }
